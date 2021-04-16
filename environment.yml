@@ -1,0 +1,25 @@
+name: ml
+channels:
+    - conda-forge
+dependencies:
+    - python=3.6
+    - bokeh
+    - ipywidgets=6.0.0
+    - psutil
+    - nbserverproxy
+    - flask
+    - flask-cors
+    - setproctitle
+    - imbalanced-learn
+    - pip:
+        - dm-tree
+        - setproctitle
+        - modin
+        - matplotlib
+        - bs4
+        - lxml
+        - scikit-learn
+        - setproctitle
+        - atoma
+        - scipy
+        - openpyxl
